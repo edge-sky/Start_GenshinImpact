@@ -28,7 +28,7 @@ def get_screen_color():
 
 
 def start_genshin_impact(percent_same, most_common_color):
-    if percent_same > 60 and most_common_color >= (240, 240, 240):
+    if percent_same > 80 and most_common_color >= (240, 240, 240):
         return 1
     return 0
 
